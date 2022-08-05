@@ -1,0 +1,8 @@
+Pour se connecter à postgres
+. sudo -u postgres psql
+base
+. \c nombase
+
+Pour exécuter continuellement Flask
+
+FLASK_APP=app.py FLASK_DEBUG=true flask run
